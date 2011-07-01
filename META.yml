@@ -15,6 +15,5 @@ meta-spec:
 name: Acme-Indigest-Crypt
 requires:
   Crypt::Passwd::XS: 0
-  Digest::SHA: 0
   Term::ReadKey: 0
-version: 0.0010
+version: 0.0011

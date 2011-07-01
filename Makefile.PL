@@ -26,10 +26,9 @@ my %WriteMakefileArgs = (
   'NAME' => 'Acme::Indigest::Crypt',
   'PREREQ_PM' => {
     'Crypt::Passwd::XS' => '0',
-    'Digest::SHA' => '0',
     'Term::ReadKey' => '0'
   },
-  'VERSION' => '0.0010',
+  'VERSION' => '0.0011',
   'test' => {
     'TESTS' => 't/*.t'
   }
